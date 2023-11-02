@@ -1,3 +1,4 @@
 # Orienté objet 
 =================
-## rentron dans le vif du sujet 
+## Entron dans le vif du sujet 
+les choses serieuses commence 
