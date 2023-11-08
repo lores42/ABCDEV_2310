@@ -1,0 +1,18 @@
+#Calcul d'interets
+#Variable
+    somme_S est un nombre 
+    nombre_N est un nombre 
+    interet_i est un nombre 
+#Début du programme
+    afficher " saisir le somme_S "
+    lire somme_S
+    afficher " saisir le nombre d'années "
+    lire nombre_N   
+    afficher " saisir intérêt_i "
+    lire interet_i
+
+    interet_simple <--somme_S*(1+nombre_N*(interet_i/100))
+    Ecrire "L'intérêt simple est de : ",interet_simple
+
+    interet_composé <--somme_S*(1+(interet_i/100))^nombre_N
+    Ecrire "l'intérêt composé est de : "

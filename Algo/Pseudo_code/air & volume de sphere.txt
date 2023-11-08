@@ -1,0 +1,17 @@
+    -----------------------------------------
+
+#Variable 
+    rayonR
+    airSphere
+    volumeSphere
+ 
+ #Début programe 
+    Ecrire " saisir le rayon R : "
+    Lire rayonR
+    airSphere <-- 4*Pi*rayonR^2
+
+    
+
+    volumeSphere <-- (4*Pi*rayonR^3)/3
+    Ecrire " air de la sphere est de : ", airSphere
+    Ecrire " volume de la sphere est de ", volumeSphere

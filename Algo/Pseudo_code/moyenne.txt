@@ -1,0 +1,11 @@
+
+Variable 
+    nombre1 est un entier
+    nombre2 est un entier
+    résulat1 est un entier 
+début du programme 
+    écrire "saisir le nombre1"
+    lire le nombre1
+    écrire"saisir le nombre2"
+    leir le nombre2
+    résultat1 nombre1+nombre2

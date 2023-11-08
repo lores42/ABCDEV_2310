@@ -1,0 +1,12 @@
+#Variable
+    rayonR 
+    angleA
+    sufaceSecteurAngulaire
+#Début du programme 
+    Ecrire "saisir le rayon R :"
+    Lire rayonR
+    Ecrire "saisir angle secteur :"
+    lire angleA
+
+    sufaceSecteurAngulaire <-- Pi*rayonR^2*(angleA/360)
+    Ecrire "aire du secteur circulaire est de :",sufaceSecteurAngulaire
