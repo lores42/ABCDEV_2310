@@ -1,0 +1,11 @@
+variable 
+    n est un entier 
+début du programme  
+    ecrire " saisir un nombre : "
+    lire n
+    si
+    si n >=1 alors 
+        ecrire " le nombre est positif " 
+    si n <=-1 alors 
+        ecrire " le nombre est négatif "
+fin du programe 

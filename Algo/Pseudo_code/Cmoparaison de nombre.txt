@@ -1,0 +1,14 @@
+Cmoparaison de nombre 
+Variable
+    a est un nombre entier 
+début du programme
+    afficher"saisir votre age"
+    lire a 
+    si a est >17 
+    Alors 
+        ecrire " vous etes majeur "
+    Si non
+        ecrire " vous etes mineur "
+    si a est < 0 
+        ecrire " vous n'êts pas encore né "
+    Fin du programme

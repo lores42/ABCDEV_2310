@@ -1,0 +1,14 @@
+Variable 
+    nombre1 est un entier 
+    nombre2 et un entier 
+début du programme
+    afficher "saisir nombre1 : "
+    lire nombre1
+    afficher "saisir nombre2 : "
+    lire nombre2
+    calculer nombre1 + nombre2
+    si total a une valeur alors 
+    afficher si produit est positif ou négatif 
+    sinon 
+    afiché "nul"
+fin du programme 

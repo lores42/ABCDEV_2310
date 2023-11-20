@@ -1,0 +1,14 @@
+variable 
+    age est de type nombre 
+début du programme
+    afficher " saisir age : "
+    lire age
+    si (age >=6 et <=7) alors 
+    afficher " Poussin "
+    si ( age >=8 et <=9 ) alors 
+    afficher " Pupille "
+    si ( age >=10 et <=11 ) alors
+    afficher " Minime "
+    si ( age >=12 )
+    fin du programme 
+    

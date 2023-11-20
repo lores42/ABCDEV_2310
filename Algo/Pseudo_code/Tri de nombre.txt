@@ -1,0 +1,17 @@
+Variable
+    a est un entier
+    b est un entier
+début du programme
+    afficher " saisir nombre a "
+    lire a 
+    afficher " saisir nombre b "
+    lire b 
+    si a>b 
+    afficher b
+    afficher -
+    afficher a
+    si non 
+    afficher a 
+    afficher -
+    afficher b 
+    fin du programe  

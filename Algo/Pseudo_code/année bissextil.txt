@@ -1,0 +1,10 @@
+variable 
+    a est un entier 
+début du programme 
+    afficher " saisie l année : "
+    lire a
+    si a mod 4 =0 alors 
+     affiché " l'année est bissextil "
+    sauf si a mod 4=0, a mod 100 =0 et a mod 400 =1 alors 
+     afficher " l'année n'est pas bissextil "
+     fin du programme 

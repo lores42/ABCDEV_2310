@@ -1,0 +1,36 @@
+Variable
+    a est un nombre
+    b est un nombre
+    c est in nombre
+début du programme
+    afficher " saisir nombre a "
+    lire a 
+    afficher " saisir nombre b "
+    lire b
+    afficher " saisir nombre c "
+    lire c 
+    si a<b<c 
+        afficher a 
+        afficher b 
+        afficher c 
+    si a>b<c et c>a 
+        afficher b
+        afficher a
+        afficher c
+    si a>b<c et c<a 
+        afficher b
+        afficher c
+        afficher a
+    si a>b>c
+        afficher c
+        afficher b
+        afficher a 
+    si a<b>c et a>c
+        afficher c
+        afficher a 
+        afficher b
+    si a<b>c et a<c
+        afficher a 
+        afficher c
+        afficher b
+
