@@ -1,5 +1,7 @@
 package exemple_expression_boolean;
 
+import java.util.Random;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -15,5 +17,5 @@ public class App {
 		System.out.println(test2);
 		System.out.println(test3);
 	}
-
+		//Random nbaleatoire = new random 
 }

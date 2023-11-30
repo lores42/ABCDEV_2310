@@ -1,0 +1,15 @@
+inversion des valeurs 
+Variable
+    A est un entier 
+    B est un entier 
+    C est un entier 
+Début du programme 
+    afficher " saisir le nombre A "
+    lire A 
+    afficher " saisir le nombre B "
+    lire B
+    mettre A dans C 
+    mettre B dans A 
+    mettre C dans B 
+    lire A 
+    lire B 

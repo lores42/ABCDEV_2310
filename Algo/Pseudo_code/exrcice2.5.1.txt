@@ -1,0 +1,18 @@
+Variable 
+    N est un entier 
+    compteur et un entier 
+    i est un entier 
+début de programe
+    afficher " saisir un nombre"
+    lire N
+    afficher " les diviseurs sont " 
+    Pour i=2 à N-1 Faire 
+        si(N%i==0) alors 
+            afficher i
+            compteur= compteur+1 
+        fin si
+    fin Pour
+    si compteur==0 alors
+        afficher " il n y a pas de divisuer "
+    fin de si 
+fin du programe
