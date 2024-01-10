@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-01-09T11:24:28.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="tWDOYk9NXQQ2WU-u3t_o" version="22.1.16" type="device">
+  <diagram name="Page-1" id="6cX02Gl5mBP08t68OKyX">
+    <mxGraphModel dx="712" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DYv3BnGKlJISqklQ30b7-1" value="Poste de télévision&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-1000" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-2" value="-&amp;nbsp; marque : string&lt;br&gt;&lt;br&gt;-&amp;nbsp; modelle&amp;nbsp; : string&lt;br&gt;&lt;br&gt;-&amp;nbsp; date de sortie&amp;nbsp; : entier&lt;br&gt;&lt;br&gt;-&amp;nbsp; dimension&amp;nbsp; : reel&lt;br&gt;&lt;br&gt;-&amp;nbsp; couleur : string&lt;br&gt;&lt;br&gt;-&amp;nbsp; smart-tv : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-1">
+          <mxGeometry y="26" width="280" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-5" value="Classe" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="23" y="-1140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-6" value="&amp;nbsp;James Rumbaugh" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-720" width="280" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-7" value="-&amp;nbsp; nom :&amp;nbsp;&amp;nbsp;James Rumbaugh&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-6">
+          <mxGeometry y="26" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-8" value="-&amp;nbsp; age : 76 ans&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-6">
+          <mxGeometry y="50" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-9" value="-&amp;nbsp; sexe : homme&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp; origine : americaine&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp; profession : informaticien&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-6">
+          <mxGeometry y="76" width="280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-10" value="Transaction boursière&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1000" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-12" value="- devise&amp;nbsp; : string&lt;br&gt;&lt;br&gt;- somme : reel&lt;br&gt;&lt;br&gt;- origine des fond : string&lt;br&gt;&lt;br&gt;- déstination des fond : string&lt;br&gt;&lt;br&gt;- peopriètaire des fonds : string&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-10">
+          <mxGeometry y="26" width="230" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-15" value="Seconde guerre mondiale&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-720" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-17" value="-&amp;nbsp; date : entier&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp; pays en guerre : string&lt;br&gt;&lt;br&gt;-&amp;nbsp; durer du conflit : entier&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp; nombre de victime : entier&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;nbsp; &amp;nbsp;lieu de conflit : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-15">
+          <mxGeometry y="26" width="240" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-19" value="la qualitè du compaliteur" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-480" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-20" value="+ nom : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-19">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-21" value="+ origine : string&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-19">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-22" value="+ utilité : string&lt;br&gt;&lt;br&gt;+ langage reconnu : string&amp;nbsp;&lt;br&gt;&lt;br&gt;+ langage de conversion : entier&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-19">
+          <mxGeometry y="78" width="280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-23" value="vitesse de la lumière" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-480" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-24" value="+ mesure&amp;nbsp; : entier" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-23">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-25" value="+ nature : string&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-23">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv3BnGKlJISqklQ30b7-26" value="+ expresion : string&lt;br&gt;&lt;br&gt;+&amp;nbsp;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv3BnGKlJISqklQ30b7-23">
+          <mxGeometry y="78" width="240" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

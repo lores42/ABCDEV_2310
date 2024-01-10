@@ -38,40 +38,63 @@ Fin du programme
   */
 	public static void main(String[] args) {
 		//déclaration de variable 
-		int km;
-		int miles;
+		double km , miles ;
 		boolean fermeture_prog;
-		string quit;
-		string saisi_utilisateur;
+		boolean isNumeric;
+		String quit, saisie_utilisateur;
+		
 		
 		// début du programme
-		quit = q;
+		quit = "q";
+		fermeture_prog = false;
+		isNumeric = true; 
 		
 		Scanner sc = new Scanner(System.in);
 		
-		while (! fermeture_prog);
+		while (! fermeture_prog)
+		{
 		
-		System.out.println("saisir le nombre de km ou tapez q pour quitter :");
-			saisi_utilisateur = sc.next();
+			System.out.println("saisir le nombre de km ou tapez q pour quitter :");
+				saisie_utilisateur = sc.next();
 			//début si
-				if(saisi_utilisateur==quit)
-				{
-					fermeture_prog=true;
-				}
+					if(saisie_utilisateur==quit)
+					{
+						fermeture_prog=true;
+					}
 				
-				else (km == + saisi_utilisateur)
-					if (km<0.01 || km>1000000)
-					{
-						System.out.println("saisie invalide, saisir une valeur comprise entre 0.01 et 1 000 000");
-						saisi_utilisateur  string; 
-					}
-					else (miles==km/1.609)
-					{
-						 System.out.println("km est égale à : "+miles+"miles");
-					}
+					else 
+						{
+							for (int i =0; i< saisie_utilisateur.length();i++)
+						{
+							if(!Character.isDigit(saisie_utilisateur.charAt(i)))
+								{
+									isNumeric = false;
+								}
+							else
+								{
+									isNumeric = true;
+								}
+							if (isNumeric)
+								{
+									km = Double.parseDouble(saisie_utilisateur);
+									if ( km <0.01 || km >1000000 )
+									{
+										System.out.println("saisi invalide, veuillez saisir un nombre entre 0.01 et 1000000 merci.");
+										saisie_utilisateur = sc.next();
+									}
+									else
+									{
+										miles = km/1.609;
+										miles = Math.round(miles*100.00)/100.00;
+										System.out.println(km + "egale à " + miles+"miles");
+									}
+							}
+						}
+					
+					 }
 				sc.close(); 
 	}
 	
-	
+	}
 
 }
