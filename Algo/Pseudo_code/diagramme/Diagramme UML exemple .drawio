@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-01-08T11:40:56.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="KwXkQUgZrAnccbhLMfXB" version="22.1.16" type="device">
+  <diagram name="Page-1" id="LxDBQO1KVob074IZmRjS">
+    <mxGraphModel dx="783" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-1" value="AnimauxDeCompagnie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="550" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-2" value="+nom : String&lt;br&gt;&lt;br&gt;+ age : Int&lt;br&gt;&lt;br&gt;+ sexe : String&lt;br&gt;&lt;br&gt;+ couleur : String&lt;br&gt;&lt;br&gt;+ estEndormi : Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-1">
+          <mxGeometry y="26" width="550" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-1">
+          <mxGeometry y="170" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-4" value="- manger ( String aliment) : void&lt;br&gt;&lt;br&gt;- dormir () boolean&lt;br&gt;&lt;br&gt;- vieillir () : Int&lt;br&gt;&lt;br&gt;-AnimauxDeCompagnie ()&lt;br&gt;&lt;br&gt;- AnimauxDeCompagnie ( String_nom; int_age; String_sexe; String_couleur; Boolean_estEndormi )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-1">
+          <mxGeometry y="178" width="550" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-5" value="Etats" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-6" value="Oppérations" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-7" value="construteur par défaut" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-8" value="constructeur avec parmètre" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5" y="440" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-9" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="585" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-10" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="480" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-11" value="+ nom : Brindille" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-10">
+          <mxGeometry y="26" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-12" value="+ age : 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-10">
+          <mxGeometry y="52" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-13" value="+ sexe : F&lt;br&gt;&lt;br&gt;+ Couleur : gris&lt;br&gt;&lt;br&gt;+ estEndormi : false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAR_Jr5A29FAJhXzzvs-10">
+          <mxGeometry y="78" width="480" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="xFAR_Jr5A29FAJhXzzvs-14" value="Diagrame de classe" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
