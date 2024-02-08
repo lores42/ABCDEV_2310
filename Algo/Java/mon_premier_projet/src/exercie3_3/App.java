@@ -16,7 +16,7 @@ public class App {
 	System.out.println("saisir un nombre : ");
 		nombre =sc.nextInt();
 		
-		for (int i=0; tab.length-1; i++)
+		//for (int i=0; tab.length-1; i++)
 		{
 			
 		}
